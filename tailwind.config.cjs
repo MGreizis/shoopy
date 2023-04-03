@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-const config = {
+module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        logored: "#EA3C12",
+        logoorange: "#EA9937",
+      },
+    },
   },
   plugins: [],
-};
-
-module.exports = config;
+}
