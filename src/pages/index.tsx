@@ -2,6 +2,7 @@ import { type NextPage } from "next";
 import Head from "next/head";
 // import Link from "next/link";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 const Home: NextPage = () => {
   return (
@@ -12,9 +13,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="min-h-screen">
-        <h1 className="text-6xl text-center font-bold">Welcome to Shoopy</h1>
+      <main className="min-h-screen dark:bg-slate-500">
+        <h1 className="text-center text-6xl font-bold">Welcome to Shoopy</h1>
       </main>
+      <Footer />
     </>
   );
 };
