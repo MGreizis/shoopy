@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        logored: "#EA3C12",
-        logoorange: "#EA9937",
+        cambridge: "#79B791",
+        celadon: "#ABD1B5",
+        cstmgrey: "#4E5166",
       },
     },
   },
