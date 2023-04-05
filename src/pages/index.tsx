@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <main className="min-h-screen dark:bg-slate-500">
-        <h1 className="text-center text-6xl font-bold">Welcome to Shoopy</h1>
+        <h1 className="text-center text-6xl font-bold p-4">Welcome to Shoopy</h1>
       </main>
       <Footer />
     </>

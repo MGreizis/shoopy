@@ -19,7 +19,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-cambridge items-center">
+    <header className="bg-cambridge">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-around">
           <nav className="flex items-center">
@@ -27,14 +27,14 @@ const Header: React.FC = () => {
               <Image className="h-10 w-48" src={Logo} alt="Logo" priority />
             </Link>
           </nav>
-          <nav className="flex items-start">
-            <div className="ml-2 flex items-center md:ml-6" id="men">
-              <Link className="px-2 py-2" href="/men">
+          <nav className="flex">
+            <div className="ml-2 flex md:ml-6" id="men">
+              <Link className="px-2 py-2 font-semibold uppercase" href="/men">
                 <p>Men</p>
               </Link>
             </div>
-            <div className="ml-2 flex items-center md:ml-6" id="women">
-              <Link className="px-2 py-2" href="/women">
+            <div className="ml-2 flex md:ml-6" id="women">
+              <Link className="px-2 py-2 font-semibold uppercase" href="/women">
                 <p>Women</p>
               </Link>
             </div>
